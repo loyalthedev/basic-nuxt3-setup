@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dark-bg-primary: #0A1A1A;
+  --dark-bg-secondary: #0F2A2A;
+  --dark-bg-tertiary: #143A3A;
+  --dark-bg-card: #1A4A4A;
+}
+
+/* * {
+  font-family: 'Manrope', sans-serif;
+} */
+
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
